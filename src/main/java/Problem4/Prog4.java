@@ -8,14 +8,14 @@ public class Prog4 {
         String [] result = new String[0];
 
         for (String string : inputArray) {
-            boolean notduplicate = true;
+            boolean notDuplicate = true;
             for (String s : result) {
                 if (string.equals(s)) {
-                    notduplicate = false;
+                    notDuplicate = false;
                     break;
                 }
             }
-            if (notduplicate) {
+            if (notDuplicate) {
                 result = Arrays.copyOf(result, (result.length + 1));
                 result[result.length - 1] = string;
             }

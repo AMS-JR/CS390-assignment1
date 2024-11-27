@@ -7,8 +7,8 @@ public class Prog2 {
         int sum = (int)(f1+f2+f3);
         System.out.println(sum);
 
-        int round_sum = Math.round(f1+f2+f3);
-        System.out.println(round_sum);
+        int roundSum = Math.round(f1+f2+f3);
+        System.out.println(roundSum);
 
     }
 }
